@@ -1,0 +1,25 @@
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    border-radius: 3px;
+}
+
+button:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
